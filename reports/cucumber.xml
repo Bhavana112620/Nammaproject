@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.959" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-11-28T10:30:25.506355900Z">
+<testcase classname="Login successfully" name="To verify login functionality using valid credentials" time="8.768">
+<failure type="java.lang.AssertionError" message="expected [My Account] but found [Account Login]">
+<![CDATA[java.lang.AssertionError: expected [My Account] but found [Account Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdefination.Step1.user_able_to_be_in_loginpage(Step1.java:36)
+	at ✽.user able to be in loginpage(file:///C:/Users/jeeva/Documents/workspace-spring-tools-for-eclipse-4.32.2.RELEASE/TutorialNinjaAutomationProject/Ninja/login.feature:7)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user has launched the browser and the application.....................passed
+When user enters email address..............................................passed
+When user enters password...................................................passed
+When user clicks on login button............................................passed
+Then user able to be in loginpage...........................................failed
+]]></system-out>
+</testcase>
+</testsuite>
